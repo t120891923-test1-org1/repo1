@@ -29,6 +29,15 @@ version = "2024.12"
 
 project {
 
+    features {
+        untrustedBuildsSettings {
+            manualRunsApproved = true
+            approvalRules = "user:ilya.voronin"
+            defaultAction = UntrustedBuildsSettings.DefaultAction.APPROVE
+            enableLog = true
+        }
+    }
+
     buildType(Repo1testPrFilters_Build)
 }
 
