@@ -35,6 +35,7 @@ project {
 
     features {
         untrustedBuildsSettings {
+            manualRunsApproved = true
             id = "PROJECT_EXT_29"
             defaultAction = UntrustedBuildsSettings.DefaultAction.APPROVE
             enableLog = true
